@@ -1,0 +1,120 @@
+/* Pen-specific styles */
+/* html,
+body,
+section {
+  height: 100%;
+}
+
+body {
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-size: 1.25rem;
+  line-height: 150%;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+}
+
+/* Pattern styles */
+/* .container {
+  display: flex;
+}
+
+.left-half {
+  background-color: #ffffff;
+  flex: 1;
+  padding: 1rem;
+  border-right: 5px solid rgb(0, 0, 0);
+  text-align: left;
+}
+
+.right-half {
+  background-color: #ffffff;
+  flex: 3;
+  padding: 1rem;
+}
+
+.vertical-nav {
+  list-style-type: none;
+}
+
+.vertical-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  background-color: rgb(233, 236, 236);
+  color: rgb(0, 0, 0);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #ffffff;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li {
+  border-bottom: #000;
+  border-bottom: 5px solid rgb(0, 0, 0);
+} */
+
+/*==============================================*/
+
+html,
+body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
